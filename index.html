@@ -15,16 +15,16 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="home">
+    <div class="home" id="home">
       <div class="nav-wrapper">
         <div class="container">
           <div class="nav">
             <div class="logo"><a href="#">Mealify</a></div>
             <div class="nav-items">
-              <a href="">Home</a>
-              <a href="">Chefs</a>
-              <a href="">Gallery</a>
-              <a href="">Contact</a>
+              <a href="#home">Home</a>
+              <a href="#chefs">Chefs</a>
+              <a href="#gallery">Gallery</a>
+              <a href="#contact">Contact</a>
             </div>
             <div class="moon"><i class="fa-solid fa-moon"></i></div>
           </div>
@@ -54,7 +54,7 @@
         </div>
       </div>
     </div>
-    <div class="chefs">
+    <div class="chefs" id="chefs">
       <div class="container">
       <span class="span">Chefs</span>
         <h2 class="chef_title">Our <span> Proffesional </span> Chefs</h2>
@@ -95,6 +95,192 @@
       </div>
     </div>
     </div>
-    
+
+    <div class="gallery" id="gallery">
+      <div class="container">
+        <span class="span">GALLERY</span>
+        <h2 class="chef_title">CHECK <span> OUR GALLERY</span></h2>
+        <div class="food">
+       <div class="first_col">
+        <div class="pizza_1">
+         <img src="assets/images/gallery/meal-1.jpg" alt="">
+         <div class="pizza_1_layer">
+          <h2>Pizza</h2>
+          <p>Hawaiian pizza with ham and pineapple</p>
+         </div>
+        </div>
+        <div class="pizza_2">
+          <img src="assets/images/gallery/meal-4.jpg" alt="">
+          <div class="pizza_2_layer">
+            <h2>Levitation pizza</h2>
+            <p>Levitation pizza on black background.</p>
+          </div>
+         </div>
+       </div>
+       <div class="second_col">
+        <div class="beef">
+         <img src="assets/images/gallery/meal-2.jpg" alt="">
+         <div class="beef_layer">
+          <h2>Beef steaks</h2>
+            <p>Tasty beef steaks flying above cast iron grate with fire flames.</p>
+         </div>
+        </div>
+        <div class="fritt">
+          <img src="assets/images/gallery/meal-5.jpg" alt="">
+          <div class="fritt_layer">
+            <h2>Frittata</h2>
+            <p>Frittata or potato pie in a ceramic plate</p>
+          </div>
+         </div>
+        </div>
+        <div class="third_col">
+          <div class="burger">
+           <img src="assets/images/gallery/meal-3.jpg" alt="">
+           <div class="burger_layer">
+            <h2>Burger</h2>
+            <p> grass fed bison hamburger with chips & beer</p>
+           </div>
+          </div>
+          <div class="chicken">
+            <img src="assets/images/gallery/meal-7.jpg" alt="">
+            <div class="chicken_layer">
+              <h2>Crispy Fried Chicken</h2>
+            <p> Golden brown chicken legs with a crunchy coating and juicy meat</p>
+            </div>
+           </div>
+           <div class="kabbab">
+            <img src="assets/images/gallery/meal-6.jpg" alt="">
+            <div class="kabbab_layer">
+              <h2>Lyulya kebab</h2>
+            <p>  Tender and juicy skewers of ground lamb or beef, flavored with aromatic spices and herbs</p>
+            </div>
+           </div>
+          </div>
+       </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="container">
+      <div class="text">
+        <span class="span">CONTACT</span>
+        <h2 class="chef_title">NEED HELP? <span>CONTACT US</span></h2>
+      </div>
+      <div class="info">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.0497174635857!2d29.974500075439654!3d31.247046974340346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5db8a16c3c77d%3A0x24c465e134255814!2sRoute%20IT%20Training%20Center!5e0!3m2!1sen!2seg!4v1743723932346!5m2!1sen!2seg"
+        width="100%"
+        height="400"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="cards">
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-map"></i>
+          </div>
+          <div class="description">
+          <h2>Our Address</h2>
+          <p> A108 Adam Street, New York, NY 535022</p>
+        </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="description">
+          <h2>  Email Us</h2>
+          <p> contact@example.com</p>
+        </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="description">
+          <h2>Call Us</h2>
+          <p>+1 5589 55488 55</p>
+        </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+          <div class="description">
+          <h2>Opening Hours</h2>
+          <p> Mon-Sat: 11AM - 23PM; Sunday : Closed</p>
+        </div>
+        </div>
+      </div>
+      <div class="form">
+        <form action="">
+            <input type="text" placeholder="Name" id="name" >
+            <input type="email" name="" id="" placeholder="Email" >
+            <input type="text" placeholder="Subject" id="subject">
+            <textarea name="" id="" placeholder="Message for me" rows="10" ></textarea>
+            <button style="margin-left: 10px;" >Send Message</button>
+        </form>
+    </div>
+    </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="part_1">
+          <div class="inner">
+            <!-- <img src="assets/images/favicon.png" alt=""> -->
+            <h2>
+              Mealify
+            </h2>
+            <p>Mealify is a restaurant landing page that offers a delicious dining experience to its customers.</p>
+            <div class="social">
+            <h3>Social Media</h3>
+            <div class="elements">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-google"></i>
+              <i class="fab fa-github"></i>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="part_2">
+          <div class="inner">
+            <h2>Subscribe our Newsletter</h2>
+          <p>
+            Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay up-to-date with all things Mealify!
+        </p>
+        <form action="">
+          <input type="text" placeholder="Enter your Email Address" id="footer_email" >
+          <button>SUbscribe</button>
+        </form>
+        <h2>Quick links</h2>
+        <div class="quick_links">
+          <div>> Menu</div>
+          <div>> Promo</div>
+          <div>> About Us</div>
+          <div>> Contact</div>
+          <div>> Testimonial</div>
+          <div>> Our Partners</div>
+        </div>
+      </div>
+        </div>
+        <div class="part_3">
+          <div class="inner">
+            <h2> Get in Touch</h2>
+             <div class="get">
+            <div>
+              <i class="fa-solid fa-map"></i> 
+              A108 Adam Street, New York, NY 535022</div>
+            <div> <i class="fa-solid fa-envelope"></i> 
+              contact@example.com</div>
+            <div><i class="fa-solid fa-phone"></i> +1 5589 55488 55</div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
